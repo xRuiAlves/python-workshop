@@ -21,7 +21,7 @@ class: inverse
 11. Interação com o Utilizador
 12. Tuplos
 13. Dicionários
-14. Bibliotecas e Re-utilização de Código
+14. Bibliotecas e Reutilização de Código
 
 ---
 class: image-spaced
@@ -752,10 +752,10 @@ else:
 
 ---
 class: center, middle, inverse
-# Bibliotecas e Re-utilização de Código
+# Bibliotecas e Reutilização de Código
 
 ---
-# Bibliotecas e Re-utilização de Código
+# Bibliotecas e Reutilização de Código
 Há muitos developers de python espalhados por todo o mundo, todos a desenvolver milhares de funções diariamente.
 
 A melhor forma de desenvolver código rapidamente e colaborativamente com outras pessoas é **reutilizando** código desenvolvido por outros.
@@ -771,7 +771,7 @@ import <nome_da_biblioteca>
 ```
 
 ---
-# Bibliotecas e Re-utilização de Código
+# Bibliotecas e Reutilização de Código
 **Exemplo 1:** Programa para fazer um gráfico que traça a variação da posição em função do tempo:
 
 ```python
@@ -786,12 +786,12 @@ plt.ylabel('Position (km)')
 
 ---
 class: medium-images
-# Bibliotecas e Re-utilização de Código
+# Bibliotecas e Reutilização de Código
 **Exemplo 1:** Resultado
 ![](./pic6.jpg)
 
 ---
-# Bibliotecas e Re-utilização de Código
+# Bibliotecas e Reutilização de Código
 **Exemplo 2:** Programa para fazer um gráfico da utilização das linguages de programação:
 ```python
 import matplotlib.pyplot as plt; plt.rcdefaults()
@@ -812,7 +812,7 @@ plt.show()
 
 ---
 class: medium-images
-# Bibliotecas e Re-utilização de Código
+# Bibliotecas e Reutilização de Código
 **Exemplo 2:** Resultado
 ![](./pic7.jpg)
 
