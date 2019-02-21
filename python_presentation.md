@@ -75,7 +75,7 @@ Uma variável funciona como uma "caixa" onde podemos armazenar dados.
 
 # Variáveis
 ## Tipos de variáveis nativos
-Em python, há 6 principais tipos de de variáveis (tipos de dados) nativos da linguagem (isto é, sem ser necessário "instalar" extensões adicionais):
+Em python, há 6 principais tipos de variáveis (tipos de dados) nativos da linguagem (isto é, sem ser necessário "instalar" extensões adicionais):
 - Números
 - Booleanos (Verdadeiro ou Falso)
 - Strings (cadeias de caratéres)
@@ -297,7 +297,7 @@ class: center, middle, inverse
 
 ---
 # Estruturas de Repetição
-Estruturas de repetição permitem-nos executar certas secções de código multiplias vezes (sem ter que reescrever o código multiplas vezes).
+Estruturas de repetição permitem-nos executar certas secções de código multiplas vezes (sem ter que reescrever o código multiplas vezes).
 
 ---
 # Estruturas de Repetição
@@ -398,7 +398,7 @@ del carbonara[0]    # Sem bacon :(
 print(carbonara)
 ```
 
-Adicionar elemento elemento a uma lista
+Adicionar um elemento a uma lista:
 ```python
 carbonara = ["bacon", "azeite", "massa", "ovos", "pimenta preta", "queijo"]
 carbonara.append("cebola")
@@ -408,21 +408,21 @@ print(carbonara)
 ---
 # Operações com Listas
 
-Obter uma sublista
+Obter uma sublista:
 ```python
 carbonara = ["bacon", "azeite", "massa", "ovos", "pimenta preta", "queijo"]
 print(carbonara[1:4])   # Obter sublista com elementos 1, 2 e 3 da lista original
 print(carbonara[2:])    # Obter todos os elementos do segundo para a frente
 ```
 
-Inverter uma lista
+Inverter uma lista:
 ```python
 fibonacci = [0, 1, 1, 2, 3, 5, 8]
 fibonacci.reverse()
 print(fibonacci)
 ```
 
-Ordenar uma lista
+Ordenar uma lista:
 ```python
 lotaria = [41, 3, 1, 33, 42]
 lotaria.sort()
@@ -432,14 +432,14 @@ print(lotaria)
 ---
 # Operações com Listas
 
-Tamanho de uma lista
+Tamanho de uma lista:
 ```python
 carbonara = ["bacon", "azeite", "massa", "ovos", "pimenta preta", "queijo"]
 numero_ingredientes = len(carbonara)
 print(numero_ingredientes)
 ```
 
-Obter o mínimo e o máximo de uma lista
+Obter o mínimo e o máximo de uma lista:
 ```python
 lotaria = [41, 3, 1, 33, 42]
 minimo = min(lotaria)
@@ -682,7 +682,7 @@ print("Um sub-tupulo:")
 print(linguagens[1:3])
 ```
 
-Como os tuplos são **imutáveis**, as seguintes instrução iriam originar um erro!
+Como os tuplos são **imutáveis**, as seguintes instruções iriam originar um erro!
 ```python
 linguagens = ("c++", "python", "java", "php", "golang")
 del linguagens[1]               # Impossível remover!
