@@ -816,6 +816,57 @@ class: medium-images
 **Exemplo 2:** Resultado
 ![](./pic7.jpg)
 
+---
+class: center, middle, inverse
+# Bónus: Exercícios
+
+---
+# Bónus: Exercícios
+## Exercício 1
+Desenvolve um programa que, dado um número inserido pelo utilizador, o caraterize como ímpar ou par.
+
+---
+# Bónus: Exercícios
+## Exercício 1 - Solução
+```python
+resposta = input("Insira um número: ")
+numero = int(resposta)
+
+if (numero % 2 == 0):   
+    print("O número é par.")
+else:                   
+    print("O número é ímpar.")
+```
+
+---
+# Bónus: Exercícios
+## Exercício 2
+Desenvolve um programa que pede ao utilizador que insira 5 números e que calcule a sua média.
+
+---
+# Bónus: Exercícios
+## Exercício 2 - Solução
+```python
+# Função para obter números introduzidos pelo utilizador
+def obterNumeros():
+    numeros = []
+    for i in range(5):
+        resposta = input("Insira um número: ")
+        numeros.append(int(resposta))
+    return numeros
+
+# Função para obter a média de uma lista de números
+def obterMedia(numeros):
+    soma = 0
+    for numero in numeros:
+        soma = soma + numero
+    return (soma/len(numeros))
+    
+
+numeros = obterNumeros()
+media = obterMedia(numeros)
+print(media)
+```
 
 ---
 class: center, middle, inverse
