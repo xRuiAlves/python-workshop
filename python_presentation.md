@@ -402,6 +402,7 @@ Adicionar um elemento a uma lista:
 ```python
 carbonara = ["bacon", "azeite", "massa", "ovos", "pimenta preta", "queijo"]
 carbonara.append("cebola")
+carbonara.insert(2, "mais azeite")
 print(carbonara)
 ```
 
