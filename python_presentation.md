@@ -280,9 +280,9 @@ multa = None    # Não tem qualquer valor atribuido, apesar de existir!
 
 if (esta_embriegado and not tem_carta):
     multa = 300
-else if (esta_embriegado and tem_carta):
+elif (esta_embriegado and tem_carta):
     multa = 200
-else if (not esta_embriegado and not tem_carta):
+elif (not esta_embriegado and not tem_carta):
     multa = 100
 else:
     multa = 0
