@@ -388,7 +388,7 @@ Aceder ao elemento de uma lista:
 ```python
 carbonara = ["bacon", "azeite", "massa", "ovos", "pimenta preta", "queijo"]
 print(carbonara[0]) # Obter primeiro elemento da lista
-print(carbonara[2]) # Obter segundo elemento da lista
+print(carbonara[2]) # Obter terceiro elemento da lista
 ```
 
 Remover elemento de uma lista:
@@ -632,6 +632,7 @@ print("Idade: " + idade)
 
 ```python
 idade = input("Insira a sua idade: ")
+idade = int(idade)  # Converter para inteiro!!!
 
 if (idade < 16):
     print("Não pode tirar a carta :(")
